@@ -1,0 +1,69 @@
+body {
+  background-color: #00152c;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 21px;
+  margin: 0;
+  color: #fff7d6;
+}
+header {
+  background-color: #2f3f5a;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+section {
+  float: left;
+  width: 60%;
+  margin-bottom: 50px;
+}
+aside {
+  float: right;
+  width: 35%;
+  margin: auto 0;
+}
+footer {
+  clear: both;
+  background-color: #2f3f5a;
+  padding: 40px 0;
+}
+a {
+  background-color: #6c7b99;
+  color: #ffffff;
+  padding: 10px;
+  text-decoration: none;
+}
+a:hover {
+  color: #b39969;
+  transition: all ease-in-out 0.1s;
+}
+.thefp {
+  margin-left: 1em;
+  color: #ffffff;
+}
+.bic {
+  width: 90%;
+  background-color: #13253e;
+  padding: 30px 65px;
+  font-size: 19px;
+}
+.btna {
+  margin: 0 auto;
+}
+.box {
+  margin: 0 auto;
+  width: 80vh;
+  height: 80vw;
+  background-image: repeating-radial-gradient(
+    red,
+    red 10px,
+    blue 10px,
+    blue 20px
+  );
+}
